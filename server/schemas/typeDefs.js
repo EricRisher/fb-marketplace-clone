@@ -1,5 +1,6 @@
-
 const typeDefs = `
+scalar Date
+
 type User {
     _id: ID!,
     username: String!,
@@ -13,8 +14,8 @@ type Product {
     _id: ID!,
     name: String!,
     description: String!,
-    price: Number!,
-    quantity: Number,
+    price: Float!,
+    quantity: Int!,
     category: String!,
     imageUrl: String,
     seller: User!,
@@ -27,7 +28,7 @@ type Transaction {
     product: Product!,
     transactionDate: String!,
     status: String!,
-    amount: Number!
+    amount: Int!
 }
 
 type Query {
@@ -38,9 +39,9 @@ type Query {
 
 type Mutation {
     addUser(username: String!, email: String!, password: String!): User
-    addProduct(name: String!, description: String!, price: Float!, quantity: Int, category: String!, imageUrl: String, sellerId: ID!): Product
-    addTransaction(buyerId: ID!, productId: ID!, transactionDate: Date!, status: String!, amount: Float!): Transaction
+    addProduct(name: String!, description: String!, price: Float!, quantity: Int!, category: String!, imageUrl: String, sellerId: ID!): Product
+    addTransaction(buyerId: ID!, productId: ID!, transactionDate: Date!, status: String!, amount: Int!): Transaction
 }
-`
+`;
 
 module.exports = typeDefs;

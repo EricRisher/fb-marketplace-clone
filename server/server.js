@@ -1,6 +1,5 @@
 // import modules
 const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
 const { ApolloServer } = require("@apollo/server");
 const { expressMiddleware } = require("@apollo/server/express4");
@@ -17,20 +16,8 @@ const server = new ApolloServer({
 // app
 const app = express();
 
-// db
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log("DB Connected"))
-  .catch((err) => console.log("DB CONNECTION ERROR", err));
-
 // middleware
 app.use(cors({ origin: true, credentials: true }));
-
-// routes
-
 
 // port
 const port = process.env.PORT || 8000;
@@ -53,9 +40,9 @@ const startApolloServer = async () => {
   }
 
   db.once("open", () => {
-    app.listen(PORT, () => {
-      console.log(`API server running on port ${PORT}!`);
-      console.log(`Use GraphQL at http://localhost:${PORT}/graphql`);
+    app.listen(port, () => {
+      console.log(`API server running on port ${port}!`);
+      console.log(`Use GraphQL at http://localhost:${port}/graphql`);
     });
   });
 };
