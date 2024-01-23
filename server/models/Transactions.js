@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const transactionSchema = new Schema({
     buyer: { type: Schema.Types.ObjectId, ref: "User", required: true },
     product: { type: Schema.Types.ObjectId, ref: "Product", required: true },
-    transactionDate: { type: Date, default: Date.now },
+    transactionDate: { type: Date, default: Date.now, required: true },
     status: { type: String, default: "pending", enum: ["pending", "completed"], required: true },
     amount: { type: Number, required: true, min: 0 },
 });

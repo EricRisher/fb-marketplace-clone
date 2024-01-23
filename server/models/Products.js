@@ -8,8 +8,8 @@ const productSchema = new Schema({
     quantity: { type: Number, required: false, default: 0 },
     category: { type: String, required: true },
     imageUrl: { type: String, required: false },
-    seller: { type: Schema.Types.ObjectId, ref: "User" },
-    createdAt: { type: Date, default: Date.now },
+    seller: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    createdAt: { type: Date, default: Date.now, required: true },
 });
 
 module.exports = mongoose.model("Product", productSchema);
