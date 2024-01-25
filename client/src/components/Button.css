@@ -8,15 +8,16 @@
   outline: none;
   border: none;
   cursor: pointer;
+  width: 120px;
 }
 
-.btn-primary {
+.btn--primary {
   background-color: var(--primary);
   color: #242424;
   border: 1px solid var(--primary);
 }
 
-.btn-outline {
+.btn--outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
@@ -26,7 +27,7 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn--large {
@@ -34,9 +35,10 @@
   font-size: 20px;
 }
 
-.btn--medium:hover,
-.btn--large:hover {
-  background-color: #fff;
-  color: #242424;
+.btn--large:hover,
+.btn--medium:hover {
   transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
 }

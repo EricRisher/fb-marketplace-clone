@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import { Button } from "./Button";
 
-function NavBar() {
+function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -18,24 +18,30 @@ function NavBar() {
     }
   };
 
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener("resize", showButton);
 
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            FB MARKETPLACE CLONE
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            MY MARKETPLACE
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <Link to='/cart' className="menu-icon cart">
-            <i
-              className="fa-solid fa-cart-shopping"
-              style={{ color: "#fff" }}
-            ></i>
-          </Link>
+          <div className="menu-icon cart">
+            <Link to="/cart">
+              <i
+                className="fa-solid fa-cart-shopping"
+                style={{ color: "#fff" }}
+              ></i>
+            </Link>
+          </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -53,28 +59,47 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/dashboard"
+                to="/about-us"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Dashboard
+                About Us
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/register"
+                to="/contact-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Signup
+                Sign Up
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/login"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              >
+                Login In
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Signup</Button>}
+          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>
   );
 }
 
-export default NavBar;
+export default Navbar;
