@@ -17,7 +17,7 @@ const GET_PRODUCTS = gql`
 
 const GET_PRODUCT = gql`
 query GetProduct($id: ID!) {
-    products(_id: $id) {
+    product(_id: $id) {
         _id
         name
         description
@@ -27,7 +27,7 @@ query GetProduct($id: ID!) {
         imageUrl
         createdAt
     }
-    }
+}
     `;
 
 export { GET_PRODUCTS, GET_PRODUCT };

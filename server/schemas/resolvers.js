@@ -47,6 +47,13 @@ const resolvers = {
         throw new Error("Error fetching transactions");
       }
     },
+    product: async (_, { _id }) => {
+      try {
+        return await Product.findById(_id);
+      } catch (error) {
+        throw new Error("Error fetching product");
+      }
+    },
   },
   Mutation: {
     addUser: async (parent, args) => {
