@@ -1,0 +1,112 @@
+[
+    {
+        "_id": "3003fb50d3d36235414ead7c",
+        "name": "Product 1",
+        "description": "This is a description for product 1",
+        "price": 70.03,
+        "quantity": 25,
+        "category": "Electronics",
+        "imageUrl": "https://example.com/products/1.jpg",
+        "seller": "b03a4b7350f3389955ce0010",
+        "createdAt": "2020-06-05"
+    },
+    {
+        "_id": "171b313358ee5e01bad793e9",
+        "name": "Product 2",
+        "description": "This is a description for product 2",
+        "price": 56.3,
+        "quantity": 21,
+        "category": "Home",
+        "imageUrl": "https://example.com/products/2.jpg",
+        "seller": "c6b1dd3574ab5ad5e711b65b",
+        "createdAt": "2022-11-08"
+    },
+    {
+        "_id": "fcad56d3c86b14921e18371e",
+        "name": "Product 3",
+        "description": "This is a description for product 3",
+        "price": 95.09,
+        "quantity": 31,
+        "category": "Electronics",
+        "imageUrl": "https://example.com/products/3.jpg",
+        "seller": "1f3e577d509f4760d083483e",
+        "createdAt": "2022-11-12"
+    },
+    {
+        "_id": "704820b225ed46c044bb939f",
+        "name": "Product 4",
+        "description": "This is a description for product 4",
+        "price": 82.84,
+        "quantity": 30,
+        "category": "Clothing",
+        "imageUrl": "https://example.com/products/4.jpg",
+        "seller": "4547ac6b04684704be013070",
+        "createdAt": "2021-10-02"
+    },
+    {
+        "_id": "a8ee00e64e1034bf341c73e0",
+        "name": "Product 5",
+        "description": "This is a description for product 5",
+        "price": 96.84,
+        "quantity": 37,
+        "category": "Books",
+        "imageUrl": "https://example.com/products/5.jpg",
+        "seller": "f1558d6678d247b1302f4cd2",
+        "createdAt": "2020-03-06"
+    },
+    {
+        "_id": "e692af35610152e5771cc664",
+        "name": "Product 6",
+        "description": "This is a description for product 6",
+        "price": 46.54,
+        "quantity": 35,
+        "category": "Clothing",
+        "imageUrl": "https://example.com/products/6.jpg",
+        "seller": "da7986dc68bca94ba4ecfad3",
+        "createdAt": "2022-12-01"
+    },
+    {
+        "_id": "eaabccc22135a44563935513",
+        "name": "Product 7",
+        "description": "This is a description for product 7",
+        "price": 66.42,
+        "quantity": 14,
+        "category": "Electronics",
+        "imageUrl": "https://example.com/products/7.jpg",
+        "seller": "5b3d37e7ed5662654b42208d",
+        "createdAt": "2023-10-25"
+    },
+    {
+        "_id": "6ff0c44c08481aa17b6b711c",
+        "name": "Product 8",
+        "description": "This is a description for product 8",
+        "price": 10.1,
+        "quantity": 4,
+        "category": "Home",
+        "imageUrl": "https://example.com/products/8.jpg",
+        "seller": "05896b975b0e1f6e3d70952f",
+        "createdAt": "2021-04-03"
+    },
+    {
+        "_id": "bac4f4183c6f1435d0842f8d",
+        "name": "Product 9",
+        "description": "This is a description for product 9",
+        "price": 76.17,
+        "quantity": 44,
+        "category": "Electronics",
+        "imageUrl": "https://example.com/products/9.jpg",
+        "seller": "bb2256503213bd8cdad1333a",
+        "createdAt": "2020-03-07"
+    },
+    {
+        "_id": "88282c034fb071b966e6197c",
+        "name": "Product 10",
+        "description": "This is a description for product 10",
+        "price": 24.66,
+        "quantity": 23,
+        "category": "Electronics",
+        "imageUrl": "https://example.com/products/10.jpg",
+        "seller": "36b9369e771e6686045e9d10",
+        "createdAt": "2020-08-06"
+    }
+]
