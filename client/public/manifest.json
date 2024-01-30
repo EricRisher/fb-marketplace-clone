@@ -1,0 +1,16 @@
+{
+  "name": "My Marketplace",
+  "short_name": "Marketplace",
+  "icons": [
+    {
+      "src": "public/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4B67A1",
+  "orientation": "portrait-primary"
+}

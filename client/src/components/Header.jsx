@@ -11,7 +11,7 @@ function Header () {
         <Navbar.Brand href="#home">Home</Navbar.Brand>
         <Navbar.Brand href="#home">
             {/* <img
-              src="/img/logo.svg"
+              src="/img/logo.svg" 
               width="30"
               height="30"
               className="d-inline-block align-top"

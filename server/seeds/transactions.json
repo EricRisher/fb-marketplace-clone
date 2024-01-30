@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "7a9e7cb794e1fa5d64a1107f",
+        "buyer": "12087d72e9272efa6207f5cd",
+        "product": "2cb0917b578ba3e113cc2200",
+        "transactionDate": "2023-03-18",
+        "status": "pending",
+        "amount": 3
+    },
+    {
+        "_id": "0d425565b1a50fcd05d183fb",
+        "buyer": "c065a98aef6fc31bf326aad2",
+        "product": "87424ad0d451c58121f2ceb2",
+        "transactionDate": "2022-09-03",
+        "status": "completed",
+        "amount": 8
+    },
+    {
+        "_id": "a3220d161ed57c8abf40d732",
+        "buyer": "1e060c6eaa5ea491b89489ef",
+        "product": "6898bc18e2c6fd8e939d2e54",
+        "transactionDate": "2020-11-01",
+        "status": "completed",
+        "amount": 7
+    },
+    {
+        "_id": "d6298415250556279fe50c7b",
+        "buyer": "03b778a99d99179871774c16",
+        "product": "c2b053700452c369b696d9ea",
+        "transactionDate": "2020-08-23",
+        "status": "completed",
+        "amount": 8
+    },
+    {
+        "_id": "445f9d03460f245374db7107",
+        "buyer": "fab2c13528a8835f6e98ca85",
+        "product": "7b7a9d970add4d4341eff552",
+        "transactionDate": "2022-02-15",
+        "status": "completed",
+        "amount": 1
+    },
+    {
+        "_id": "3a17f4663f2486e2e89dcbb8",
+        "buyer": "b50cc342c91eae4a9988e5b0",
+        "product": "996d25747252ecb06062c624",
+        "transactionDate": "2022-02-09",
+        "status": "pending",
+        "amount": 2
+    },
+    {
+        "_id": "fbe141b784414d1eca357261",
+        "buyer": "cef9522c399eaacd8fc290f0",
+        "product": "cf52c33fd3f1d3178b30852c",
+        "transactionDate": "2022-07-26",
+        "status": "pending",
+        "amount": 9
+    },
+    {
+        "_id": "55f23c145c55934c1097ad2c",
+        "buyer": "54c82f375111cee1e2fe8830",
+        "product": "7d5bb78ac0f6fed2b69e5fa4",
+        "transactionDate": "2022-02-27",
+        "status": "pending",
+        "amount": 3
+    },
+    {
+        "_id": "38e7dbe15db2c8bb628a2598",
+        "buyer": "4428771d6136d2f692a890c7",
+        "product": "c7011352f800861f9c2e1907",
+        "transactionDate": "2020-10-16",
+        "status": "pending",
+        "amount": 4
+    },
+    {
+        "_id": "5fef0e0b7533559843fe9fbd",
+        "buyer": "4da7dc84752ccabae00bee8b",
+        "product": "0eef009b150b35b7ee7d3aef",
+        "transactionDate": "2023-02-16",
+        "status": "completed",
+        "amount": 3
+    }
+]

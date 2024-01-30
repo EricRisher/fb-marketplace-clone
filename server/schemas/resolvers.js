@@ -31,9 +31,17 @@ const resolvers = {
         throw new Error("Error fetching users");
       }
     },
+    user: async (_, { _id }) => {
+      try {
+        return await User.findById(_id);
+      } catch (error) {
+        throw new Error("Error fetching user");
+      }
+    },
     products: async () => {
       try {
         return await Product.find();
+        console.log("products");
       } catch (error) {
         // Handle or log the error
         throw new Error("Error fetching products");
@@ -45,6 +53,13 @@ const resolvers = {
       } catch (error) {
         // Handle or log the error
         throw new Error("Error fetching transactions");
+      }
+    },
+    product: async (_, { _id }) => {
+      try {
+        return await Product.findById(_id);
+      } catch (error) {
+        throw new Error("Error fetching product");
       }
     },
   },
