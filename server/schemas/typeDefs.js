@@ -35,7 +35,8 @@ type Query {
     users: [User],
     products: [Product],
     transactions: [Transaction],
-    product(_id: ID!): Product
+    product(_id: ID!): Product,
+    user(_id: ID!): User
 }
 
 type Mutation {

@@ -25,11 +25,12 @@ export default function SingleProduct() {
       <div className="product-details">
         <h1 className="product-title">{data.product.name}</h1>
 
-        <p className="product-description">{data.product.description}</p>
-        
+        <div className="product-description">
+        <p>{data.product.description}</p>
         <div className="product-actions">
           <button className="buy-button">Buy</button>
           <button className="faves-button">Add to Faves</button>
+        </div>
         </div>
       </div>
     </div>
