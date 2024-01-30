@@ -48,15 +48,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/products"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 to="/about-us"
@@ -95,7 +87,15 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          <div className="nav-actions">
+            {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+            <Link to="/cart" className="cart-icon">
+              <i
+                className="fa-solid fa-cart-shopping"
+                style={{ color: "#fff" }}
+              ></i>
+            </Link>
+          </div>
         </div>
       </nav>
     </>

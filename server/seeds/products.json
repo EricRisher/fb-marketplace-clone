@@ -6,7 +6,7 @@
         "price": 70.03,
         "quantity": 25,
         "category": "Electronics",
-        "imageUrl": "https://example.com/products/1.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "b03a4b7350f3389955ce0010",
         "createdAt": "2020-06-05"
     },
@@ -17,7 +17,7 @@
         "price": 56.3,
         "quantity": 21,
         "category": "Home",
-        "imageUrl": "https://example.com/products/2.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "c6b1dd3574ab5ad5e711b65b",
         "createdAt": "2022-11-08"
     },
@@ -28,7 +28,7 @@
         "price": 95.09,
         "quantity": 31,
         "category": "Electronics",
-        "imageUrl": "https://example.com/products/3.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "1f3e577d509f4760d083483e",
         "createdAt": "2022-11-12"
     },
@@ -39,7 +39,7 @@
         "price": 82.84,
         "quantity": 30,
         "category": "Clothing",
-        "imageUrl": "https://example.com/products/4.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "4547ac6b04684704be013070",
         "createdAt": "2021-10-02"
     },
@@ -50,7 +50,7 @@
         "price": 96.84,
         "quantity": 37,
         "category": "Books",
-        "imageUrl": "https://example.com/products/5.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "f1558d6678d247b1302f4cd2",
         "createdAt": "2020-03-06"
     },
@@ -61,7 +61,7 @@
         "price": 46.54,
         "quantity": 35,
         "category": "Clothing",
-        "imageUrl": "https://example.com/products/6.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "da7986dc68bca94ba4ecfad3",
         "createdAt": "2022-12-01"
     },
@@ -72,7 +72,7 @@
         "price": 66.42,
         "quantity": 14,
         "category": "Electronics",
-        "imageUrl": "https://example.com/products/7.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "5b3d37e7ed5662654b42208d",
         "createdAt": "2023-10-25"
     },
@@ -83,7 +83,7 @@
         "price": 10.1,
         "quantity": 4,
         "category": "Home",
-        "imageUrl": "https://example.com/products/8.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "05896b975b0e1f6e3d70952f",
         "createdAt": "2021-04-03"
     },
@@ -94,7 +94,7 @@
         "price": 76.17,
         "quantity": 44,
         "category": "Electronics",
-        "imageUrl": "https://example.com/products/9.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "bb2256503213bd8cdad1333a",
         "createdAt": "2020-03-07"
     },
@@ -105,7 +105,7 @@
         "price": 24.66,
         "quantity": 23,
         "category": "Electronics",
-        "imageUrl": "https://example.com/products/10.jpg",
+        "imageUrl": "https://placekitten.com/300/300",
         "seller": "36b9369e771e6686045e9d10",
         "createdAt": "2020-08-06"
     }
