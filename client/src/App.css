@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+#basic-navbar-nav {
+  flex: auto;
+=======
 .Marketplace {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -112,4 +116,5 @@
   .Marketplace-search input {
     margin-bottom: 0.5rem;
   }
+>>>>>>> 2a46f4b61eaaf7f103346620ec5b5778e0d706de
 }
