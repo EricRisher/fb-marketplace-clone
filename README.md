@@ -20,7 +20,7 @@ To install UrbanUptake locally, please follow these steps:
 
 Clone the repository:
 
-git clone git@github.com:HackDehZack/UrbanUptake.git
+git clone git@github.com:EricRisher/fb-marketplace-clone.git
 Navigate to the project directory:
 cd urbanuptake
 Install the required dependencies using a package manager such as npm or yarn:
