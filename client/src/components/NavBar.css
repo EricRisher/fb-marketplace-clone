@@ -50,14 +50,23 @@
   margin: 0; 
 }
 
+.btn-mobile{
+  background-color: #a3a3a3;
+}
+
+.btn {
+
+}
+
 .nav-item {
   height: 80px;
 }
 
-.cart {
+.cart-icon {
   font-size: 1.5rem;
   cursor: pointer;
   align-items: end;
+  padding-right: 20px;
 }
 
 .nav-links {
@@ -126,19 +135,22 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
+    width: 100px;
   }
 
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    right: 20px; /* Adjust the right position */
+    transform: translate(-50%, 60%);
+    font-size: 1.8rem; /* Adjust font size if needed */
     cursor: pointer;
+    padding: 10px;
+  }
+
+  .cart {
+    padding-right: 40px;
   }
 
   .fa-times {
